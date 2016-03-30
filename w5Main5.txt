@@ -1,0 +1,18 @@
+﻿@startuml
+start
+:0<= user input <= 100;
+:user input = marks;
+if (0<marks<=60)
+:user get grade F;
+elseif (60<marks<=70)
+:user get grade D;
+elseif (70<marks<=80)
+:user get grade C;
+elseif (80<marks<=90)
+:user get grade B;
+elseif (90<marks<=100)
+:user get grade A;
+endif
+:print user's grade;
+stop
+@enduml
