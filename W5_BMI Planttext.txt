@@ -1,0 +1,24 @@
+﻿start
+
+:height=180;
+
+:weight=70;
+
+:bmi = height / (weight * weight);
+
+if (bmi >= 18.5 and bmi=<24.9)
+
+    :print "normal weight";
+
+elseif(bmi >= 25 and bmi=<29.9)
+
+    :print "overweight";
+
+elseif(bmi >= 30 and bmi=<40)
+
+    :print "obesity";
+
+else
+    :print "over obesity";
+
+endif
