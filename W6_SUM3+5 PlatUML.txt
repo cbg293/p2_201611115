@@ -1,0 +1,9 @@
+﻿:i = 1~1000;
+repeat
+if (i%3==0)
+:add i to sum;
+elseif (1%5==0)
+:add i to sum;
+endif
+repeat while(0<i<1000)
+:print sum;
