@@ -1,0 +1,9 @@
+﻿start
+:Get your input year;
+if(Year can be divided by 4 and can't be diveied by 100
+Or, Year can be divided by 4 and 400)
+    :print "User year is yoon Year";
+else
+    :print "User year is not yoon Year";
+endif
+stop
